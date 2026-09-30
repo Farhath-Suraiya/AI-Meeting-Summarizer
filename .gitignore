@@ -1,0 +1,46 @@
+# Python virtual environment
+backend/venv/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Uploaded files
+uploads/
+backend/uploads/
+
+# Database/local files
+*.db
+*.sqlite
+*.sqlite3
+
+# ML model/cache files
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
